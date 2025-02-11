@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor-de-fundo: #16161a;
+    --cor-rodapé: #0e0e10;
+    --cor-de-texto: #94a1b2;
+    --cor-de-botao: #7A4BB3;
+    --cor-alternativa: #017BCF;
+    --cor-azul-escuro: #191F4F;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-de-texto);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--cor-rodapé);
+    position: fixed;
+    width: 100%;
+}
+
+#logo {
+    height: 3cm;
+    
+}
+
+header > nav {
+    margin: auto 0;
+}
+
+header > nav > a {
+    font-size: 20px;
+    padding: 4px;
+    text-decoration: none;
+    color: var(--cor-de-texto);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > nav > a:hover {
+    background-color: rgb(41, 38, 38);
+    border-radius: 5px;
+}
+
+
+
+header > a {
+    display: flex;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+main > #profile > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#myphoto {
+    margin-left: 90px;
+    height: 400px;
+    border-radius: 100px 0px;
+}
+
+
+
+#sobremim > h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sobremim > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    
+}
+
+#habilidades > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 300px;
+}
+
+.icons {
+    height: 70px;
+    padding: 20px;
+   
+    
+}
+
+#projetos > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#projetos > h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+#contatos > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.redes {
+    height: 70px;
+    padding: 20px;
+    margin-bottom: 300px;
+ 
+}
+
+footer {
+    background-color: var(--cor-rodapé);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+}
+
+footer > p {
+    padding-top: 10px;
+}
+
+
